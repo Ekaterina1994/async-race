@@ -1,18 +1,17 @@
-.link {
+.button {
   text-decoration: none;
   color: #ddd;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  width: 80px;
+  background-color: transparent;
+  cursor: pointer;
 }
 
-.active {
-  text-decoration: none;
+.button:hover {
+  color: #171d1c;
   /* background-color: #87BBA2; */
   background-color: #fff07c;
-  color: #171d1c;
   border: 1px solid #fff07c;
-  border-radius: 5px;
-  padding: 10px;
 }
-

@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  margin-top: 10px;
+  border-bottom: 2px solid #ddd;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.flag {
+  position: absolute;
+  max-width: 30px;
+  right: 200px;
+  bottom: 5px;
+}
+
+.race {
+  display: flex;
+  gap: 10px;
+}
