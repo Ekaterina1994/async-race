@@ -1,0 +1,26 @@
+{
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "root": true,
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "@typescript-eslint/prefer-optional-chain": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "semi": "error",
+    "no-var": "error",
+    "indent": ["error", 2],
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-multiple-empty-lines": "error",
+    "prefer-const": "error"
+  }
+}
