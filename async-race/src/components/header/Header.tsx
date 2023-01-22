@@ -5,8 +5,8 @@ import "./Header.css";
 export const Header: FC = () => {
   return (
     <div className="nav">
-      <Link path="/garage" page="To Garage" />
-      <Link path="/winners" page="To Winners" />
+      <Link path="/garage" page="Garage" />
+      <Link path="/winners" page="Winners" />
     </div>
   );
 };
