@@ -1,0 +1,9 @@
+.nav {
+  display: flex;
+  padding: 30px 0;
+  gap: 20px;
+}
+
+.img {
+  width: 50px;
+}

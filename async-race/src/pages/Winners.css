@@ -1,0 +1,20 @@
+.table {
+  /* border: 1px solid #fff07c; */
+  background-color: #fff07c;
+  margin: 20px auto;
+}
+
+.table-title {
+  background-color: #fff07c;
+  color: #171d1c;
+}
+
+td {
+  background-color: #171d1c;
+  height: 50px;
+  text-align: center;
+}
+
+th {
+  width: 150px;
+}
