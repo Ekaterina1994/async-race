@@ -1,16 +1,3 @@
-.container {
-  position: relative;
-  margin-top: 10px;
-  border-bottom: 2px solid #ddd;
-}
-
-.buttons {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
 .button {
   margin: 5px 0;
   text-decoration: none;
@@ -30,14 +17,7 @@
   border: 1px solid #fff07c;
 }
 
-.flag {
-  position: absolute;
-  max-width: 30px;
-  right: 200px;
-  bottom: 5px;
-}
-
-.race {
+.btns {
   display: flex;
-  gap: 10px;
+  gap: 5px;
 }

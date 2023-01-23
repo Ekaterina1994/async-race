@@ -8,14 +8,15 @@ import { SettingsCarsContext } from "./context/context";
 
 const App = () => {
   const [colorValue, setColorValue] = useState<string>("");
+  const [nameValue, setNameValue] = useState<string>("");
 
   return (
     <div>
-      <SettingsCarsContext.Provider value={{ colorValue, setColorValue }}>
+      <SettingsCarsContext.Provider value={{ colorValue, setColorValue, nameValue, setNameValue }}>
         <Header />
         <Routes>
-          <Route path="/" element={<Garage items={[]} />} />
-          <Route path="/garage" element={<Garage items={[]} />} />
+          <Route path="/" element={<Garage items={[]} fill="" title="" />} />
+          <Route path="/garage" element={<Garage items={[]} fill="" title="" />} />
           <Route path="/winners" element={<Winners />} />
         </Routes>
       </SettingsCarsContext.Provider>
